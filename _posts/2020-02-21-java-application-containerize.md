@@ -19,3 +19,6 @@ tags:
 
 [Testing Your Database Migrations With Flyway and Testcontainers](https://dev.to/frosnerd/testing-your-database-migrations-with-flyway-and-testcontainers-44fc)
 
+[Kubernetes: A Detailed Example of Deployment of a Stateful Application](https://medium.com/better-programming/kubernetes-a-detailed-example-of-deployment-of-a-stateful-application-de3de33c8632)
+
+[Sample java web system on Kubernetes](https://medium.com/better-programming/kubernetes-a-detailed-example-of-deployment-of-a-stateful-application-de3de33c8632)
