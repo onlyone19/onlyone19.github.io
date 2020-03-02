@@ -41,6 +41,5 @@ tags:
 
 [Using metric tags with MicroProfile Metrics 2.0](https://blog.sebastian-daschner.com/entries/metrics-tags-microprofile)
 
-[Deep Java Library
-[Open source library to build and deploy Deep Learning in Java](https://www.infoq.cn/article/uia32kfs1y84S1UYWdpW?utm_source=related_read&utm_medium=article)
+[Deep Java Library - Open source library to build and deploy Deep Learning in Java](https://www.infoq.cn/article/uia32kfs1y84S1UYWdpW?utm_source=related_read&utm_medium=article)
 
