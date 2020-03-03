@@ -43,3 +43,16 @@ tags:
 
 [Deep Java Library - Open source library to build and deploy Deep Learning in Java](https://www.infoq.cn/article/uia32kfs1y84S1UYWdpW?utm_source=related_read&utm_medium=article)
 
+
+[从0到1了解CI/CD：初学者入门必备 ](https://mp.weixin.qq.com/s?__biz=MzIyMTUwMDMyOQ==&mid=2247491838&idx=1&sn=522052b3f5d704bb75efcd007f172e52&chksm=e8396638df4eef2eb40333bffc5ca4d9196c62f682424004f4f3e1582859e0d0a396e7a70c29&scene=21#wechat_redirect)
+
+[超长可视化指南！你必须了解的 Kubernetes 部署的调试思路](https://www.infoq.cn/article/URYYcobSvbmQ5AlgkLlN)
+
+[Evolutionary Database Design](https://www.martinfowler.com/articles/evodb.html)
+
+[Ask HN: How does your development team handle database migrations?](https://news.ycombinator.com/item?id=19880334)
+
+[Jailer is a tool for database subsetting](http://jailer.sourceforge.net/)
+
+
+
