@@ -54,5 +54,8 @@ tags:
 
 [Jailer is a tool for database subsetting](http://jailer.sourceforge.net/)
 
+[Java Testing Complete Guide](https://dzone.com/articles/10-ways-to-test-your-application-server)
+PiTest for mutation tests
+
 
 
