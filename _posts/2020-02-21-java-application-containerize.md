@@ -21,4 +21,4 @@ tags:
 
 [Kubernetes: A Detailed Example of Deployment of a Stateful Application](https://medium.com/better-programming/kubernetes-a-detailed-example-of-deployment-of-a-stateful-application-de3de33c8632)
 
-[Sample java web system on Kubernetes](https://medium.com/better-programming/kubernetes-a-detailed-example-of-deployment-of-a-stateful-application-de3de33c8632)
+[Sample java web system on Kubernetes](https://medium.com/@dayan888/sample-java-web-system-on-kubernetes-e52069390916)
