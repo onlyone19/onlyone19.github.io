@@ -1,3 +1,10 @@
+# Extracurricular Activities
+1. [Complete List of Extracurricular Activities: 100s of Examples](https://blog.prepscholar.com/list-of-extracurricular-activities-examples)
+2. [80+ Extracurricular Activity Examples for the Common Application](https://www.collegeessayguy.com/blog/extracurricular-activities-examples-common-application?rq=extrac)
+3. [Impressive Extracurriculars](https://www.fastweb.com/student-life/articles/impressive-extracurriculars)
+4. [Your Complete List of Extracurricular Activities](https://blog.collegevine.com/your-complete-list-of-extracurricular-activities/)
+5. [Seeking A Summer Job? Consider These Tips](https://insights.collegeconfidential.com/find-summer-job)
+
 # A guide to developing a balanced list of 8-10 schools, plus how to decide whether or not to apply early
 ================================================
 ## Where do I start finding the right colleges?
