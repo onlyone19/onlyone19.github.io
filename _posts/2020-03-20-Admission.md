@@ -1,3 +1,5 @@
+[What Are "Hooks" in the College Admissions Process? ](https://insights.collegeconfidential.com/what-are-hooks-in-college-admissions)
+
 # Extracurricular Activities
 1. [Complete List of Extracurricular Activities: 100s of Examples](https://blog.prepscholar.com/list-of-extracurricular-activities-examples)
 2. [80+ Extracurricular Activity Examples for the Common Application](https://www.collegeessayguy.com/blog/extracurricular-activities-examples-common-application?rq=extrac)
