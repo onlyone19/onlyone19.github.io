@@ -5,7 +5,7 @@ title: Quarkus - Postgresql Database
 ## Step 3: Postgresql Database
 Run postgresql database in a docker container
 ```bash
-docker run --rm -d --name pd-database -p 5433:5432 -e POSTGRES_DB=pd -e POSTGRES_USER=pd -e POSTGRES_PASSWORD=pd postgres
+docker run --rm -d --name pd-database -p 5432:5432 -e POSTGRES_DB=pd -e POSTGRES_USER=pd -e POSTGRES_PASSWORD=pd postgres
 ```
 Options passed:
 <pre>
