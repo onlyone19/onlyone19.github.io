@@ -281,6 +281,10 @@ class Solution {
 }
 ```
 
-
+## Other
+- [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)
+- [51. N-Queens](https://leetcode.com/problems/n-queens/description/)
+- [1723. Find Minimum Time to Finish All Jobs](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/description/)
+- [1986. Minimum Number of Work Sessions to Finish the Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/description/)
 
 
