@@ -1,5 +1,5 @@
 ---
-title: Dynamic Programming - 区间
+title: Dynamic Programming - Interval
 category: Blog
 tags:
   - DSA
