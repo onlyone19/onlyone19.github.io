@@ -11,7 +11,6 @@ tags:
 ## 0-1 Knapsack
 - [01背包(模版)](https://www.luogu.com.cn/problem/P1048)
 - [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/description/)
-- [
 - [494. Target Sum](https://leetcode.com/problems/target-sum/description/)
 - [1049. Last Stone Weight II](https://leetcode.com/problems/last-stone-weight-ii/description/)
 - [有依赖的背包(模版)](https://www.luogu.com.cn/problem/P1064)
@@ -38,6 +37,15 @@ tags:
 - [分组背包(模版)](https://www.luogu.com.cn/problem/P1757)
 - [2218. Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/description/)
 - [完全背包(模版)](https://www.luogu.com.cn/problem/P1616)
+- [322. Coin Change](https://leetcode.com/problems/coin-change/description/)
+- [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)
+- [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)
+  ```
+  Note that different sequences are counted as different combinations.
+  ```
+- [279. Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)
+- [139. Word Break](https://leetcode.com/problems/word-break/description/)
+  `traversal order`
 - [10. Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)
 - [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/)
 - [购买足量干草的最小花费](https://www.luogu.com.cn/problem/P2918)
