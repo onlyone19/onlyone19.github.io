@@ -1,6 +1,6 @@
 ---
 title: How to Cherry-Pick in GIT
-category: git
+category: Blog
 tags:
   - tools
   - git
