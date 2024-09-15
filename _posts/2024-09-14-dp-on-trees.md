@@ -91,7 +91,7 @@ dfn序 + 每颗子树的大小，可以起到定位子树节点的作用. 如果
 那么可知，dfn序号从x ~ x+y-1所代表的节点，都属于这个节点的子树
 利用这个性质，**节点间的关系判断**，**跨子树的讨论** 就会变得方便
 
-## [2458. (H) Height of Binary Tree After Subtree Removal Queries]()
+## [2458. (H) Height of Binary Tree After Subtree Removal Queries](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/description/)
 You are given the root of a binary tree with n nodes. Each node is assigned a unique value from 1 to n. 
 You are also given an array queries of size m.
 You have to perform m independent queries on the tree where in the ith query you do the following:
