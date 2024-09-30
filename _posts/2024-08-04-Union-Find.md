@@ -10,9 +10,28 @@ tags:
 
 
 
-### [765. (H) couples holding hands]()
+### [765. (H) couples holding hands](https://leetcode.com/problems/couples-holding-hands/description/)
+```
+There are n couples sitting in 2n seats arranged in a row and want to hold hands.
 
-### [839. (H) similar string groups]()
+The people and seats are represented by an integer array row where row[i] is the ID of the person sitting in the ith seat. The couples are numbered in order, the first couple being (0, 1), the second couple being (2, 3), and so on with the last couple being (2n - 2, 2n - 1).
+
+Return the minimum number of swaps so that every couple is sitting side by side. A swap consists of choosing any two people, then they stand up and switch seats.
+```
+
+
+### [839. (H) similar string groups](https://leetcode.com/problems/similar-string-groups/description/)
+```
+Two strings, X and Y, are considered similar if either they are identical or we can make them equivalent by swapping at most two letters (in distinct positions) within the string X.
+
+For example, "tars" and "rats" are similar (swapping at positions 0 and 2), and "rats" and "arts" are similar, but "star" is not similar to "tars", "rats", or "arts".
+
+Together, these form two connected groups by similarity: {"tars", "rats", "arts"} and {"star"}.  Notice that "tars" and "arts" are in the same group even though they are not similar.  Formally, each group is such that a word is in the group if and only if it is similar to at least one other word in the group.
+
+We are given a list strs of strings where every string in strs is an anagram of every other string in strs. How many groups are there?
+```
+
+
 
 ### [200. (M) number of Islands]()
 
