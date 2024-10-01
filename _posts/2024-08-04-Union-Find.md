@@ -51,6 +51,10 @@ Return a list of all the people that have the secret after all the meetings have
 
 
 ### [2421. (H) number of good paths]()
+Observation:
+1. single node is a good path
+2. two sets with the max value: the number of good paths = # of max value in set A * # of max value in set B
+3. process edges based on max value from low to high
 
 ```
 There is a tree (i.e. a connected, undirected graph with no cycles) consisting of n nodes numbered from 0 to n - 1
