@@ -38,9 +38,34 @@ We are given a list strs of strings where every string in strs is an anagram of 
 ### [947. (M) most stones removed with same row or column]()
 
 ### [2092. (H) find all people with secret]()
+idea: add label to set
+```
+You are given an integer n indicating there are n people numbered from 0 to n - 1. You are also given a 0-indexed 2D integer array meetings where meetings[i] = [xi, yi, timei] indicates that person xi and person yi have a meeting at timei. A person may attend multiple meetings at the same time. Finally, you are given an integer firstPerson.
+
+Person 0 has a secret and initially shares the secret with a person firstPerson at time 0. This secret is then shared every time a meeting takes place with a person that has the secret. More formally, for every meeting, if a person xi has the secret at timei, then they will share the secret with person yi, and vice versa.
+
+The secrets are shared instantaneously. That is, a person may receive the secret and share it with people in other meetings within the same time frame.
+
+Return a list of all the people that have the secret after all the meetings have taken place. You may return the answer in any order.
+```
 
 
 ### [2421. (H) number of good paths]()
+
+```
+There is a tree (i.e. a connected, undirected graph with no cycles) consisting of n nodes numbered from 0 to n - 1 and exactly n - 1 edges.
+
+You are given a 0-indexed integer array vals of length n where vals[i] denotes the value of the ith node. You are also given a 2D integer array edges where edges[i] = [ai, bi] denotes that there exists an undirected edge connecting nodes ai and bi.
+
+A good path is a simple path that satisfies the following conditions:
+
+    The starting node and the ending node have the same value.
+    All nodes between the starting node and the ending node have values less than or equal to the starting node (i.e. the starting node's value should be the maximum value along the path).
+
+Return the number of distinct good paths.
+
+Note that a path and its reverse are counted as the same path. For example, 0 -> 1 is considered to be the same as 1 -> 0. A single node is also considered as a valid path.
+```
 
 
 ### [1697. (H) checking existance of edge length limited paths](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/)
