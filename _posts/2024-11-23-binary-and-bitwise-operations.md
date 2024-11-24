@@ -64,8 +64,78 @@ public void additiveInverse() {
 那么最终袋子里一定会只剩1个球，请问最终的球是黑的概率是多少？用a和b来表达这个概率。
 
 ### 题目1 交换两个数
+```java
+@Test
+public void swapTwoNumbers() {
+    int a = 10;
+    int b = -123;
+
+    a = a ^ b;
+    b = a ^ b;
+    a = a ^ b;
+
+    assertEquals(10, b);
+    assertEquals(-123, a);
+}
+```
 
 ### 题目2 不用任何判断语句和比较操作，返回两个数的最大值
+```java
+@Test
+public void maxOfTowNumbers() {
+    int a = 20;
+    int b = 10;
+    assertEquals(a, max(a, b));
+
+    a = 10;
+    b = 20;
+    assertEquals(b, max(a, b));
+
+    a = 10;
+    b = -20;
+    assertEquals(a, max(a, b));
+
+    a = -10;
+    b = 20;
+    assertEquals(b, max(a, b));
+
+    a = Integer.MIN_VALUE;
+    b = -10;
+    assertEquals(b, max(a, b));
+
+    a = Integer.MAX_VALUE;
+    b = Integer.MIN_VALUE;
+    assertEquals(a, max(a, b));
+}
+
+public static int max(int a, int b) {
+    int c = a - b;
+    int signC = sign(c);
+
+    int signA = sign(a);
+    int signB = sign(b);
+
+    int diffSign = signA ^ signB;
+    int sameSign = flip(diffSign);
+
+    // return a if a and b has same sign and a - b >=0 || diff sign and a >= 0
+    int returnA = diffSign * signA + sameSign * signC;
+    int returnB = flip(returnA);
+
+    return a * returnA + b * returnB;
+}
+
+// return 1 if v == 0; return 0 if v == 1
+public static int flip(int v) {
+    return v ^ 1;
+}
+
+// return 0 if v < 0; return 1 if v >= 0;
+public static int sign(int v) {
+    return flip(v >>> 31);
+}
+```
+
 
 ### 题目3 找到缺失的数字
 
