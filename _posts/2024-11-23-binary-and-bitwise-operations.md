@@ -137,8 +137,57 @@ public static int sign(int v) {
 ```
 
 
-### 题目3 找到缺失的数字
+### [leetcode 268 Missing Number](https://leetcode.com/problems/missing-number)
+```java
+public int missingNumber(int[] nums) {
+    int all = 0;
+    int has = 0;
+    for(int i = 0; i < nums.length; ++i) {
+        all ^= i;
+        has ^= nums[i];
+    }
+    all ^= nums.length;
 
-### 题目4 数组中1种数出现了奇数次，其他的数都出现了偶数次，返回出现了奇数次的数
+    return all ^ has;
+}
+```
+
+
+### [236: Single Number](https://leetcode.com/problems/single-number)
+
+### [137. Single Number II](https://leetcode.com/problems/single-number-ii)
+- Given an integer array `nums` where every element appears `three times` except for one, which appears `exactly once`. 
+Find the single element and return it.
+
+You must implement a solution with a linear runtime complexity and use only constant extra space.
+- **数组中只有1种数出现次数少于m次，其他数都出现了m次，返回出现次数小于m次的那种数**
+
+### [260. Single Number III](https://leetcode.com/problems/single-number-iii) 
+数组中有2种数出现了奇数次，其他的数都出现了偶数次，返回这2种出现了奇数次的数
+- **Brian Kernighan算法 - 提取出二进制状态中最右侧的1** => `n & -n` => `n & (~n + 1)`
+```java
+public int[] singleNumber(int[] nums) {
+    int all = 0;
+    for(int num : nums) {
+        all ^= num;
+    }
+    // all = a ^ b
+    // a and b has different value at bit mostRightOne
+    // this bit can split the arrays into 2 groups
+    // the group has only a OR b
+    int mostRightOne = all & (-all);
+    int num1 = 0;
+    for(int num : nums) {
+        if((num & mostRightOne) == 0) {
+            num1 ^= num;
+        }
+    } 
+    System.out.println(mostRightOne);
+
+    return new int[] {num1, all ^ num1};
+}
+```
+
+
 
 
