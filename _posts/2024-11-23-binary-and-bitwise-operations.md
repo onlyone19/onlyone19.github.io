@@ -217,7 +217,21 @@ boolean isPowerOfTwo2(int n) {
 
 
 ### [201. Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range)
+```java
+public int rangeBitwiseAnd(int left, int right) {
+    int rt = 0;
+    for(int i = 0; i < 32; ++i) {
+        if( left == right ) {
+            rt = left << i;
+            break;
+        }
+        left = left >>> 1;
+        right = right >>> 1;
+    }
 
+    return rt;
+}
+```
 
 ### [190. Reverse Bits](https://leetcode.com/problems/reverse-bits)
 
