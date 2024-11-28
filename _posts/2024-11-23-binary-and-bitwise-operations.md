@@ -238,6 +238,11 @@ public int rangeBitwiseAnd(int left, int right) {
 
 ### [461. Hamming Distance](https://leetcode.com/problems/hamming-distance)
 
+### [477. Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance)
+
+### [3141. Maximum Hamming Distances](https://leetcode.com/problems/maximum-hamming-distances)
+
+
 
 ## 位运算实现加减乘除，过程中不能出现任何算术运算符
 
