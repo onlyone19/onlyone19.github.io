@@ -5,6 +5,8 @@ tags:
   - leetcode
   - DSA
 ---
+## Reference: 
+- [（位运算篇）Bit Manipulation](https://darktiantian.github.io/LeetCode%E7%AE%97%E6%B3%95%E9%A2%98%E6%95%B4%E7%90%86%EF%BC%88%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AF%87%EF%BC%89Bit-Manipulation/)
 
 ## Signed Binary
 ### Negative Number -> Binary
