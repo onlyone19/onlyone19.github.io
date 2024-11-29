@@ -8,6 +8,9 @@ tags:
 ## Reference: 
 - [（位运算篇）Bit Manipulation](https://darktiantian.github.io/LeetCode%E7%AE%97%E6%B3%95%E9%A2%98%E6%95%B4%E7%90%86%EF%BC%88%E4%BD%8D%E8%BF%90%E7%AE%97%E7%AF%87%EF%BC%89Bit-Manipulation/)
 
+- [算法通关手册: 位运算](https://algo.itcharge.cn/09.Algorithm-Base/06.Bit-Operation/01.Bit-Operation/)
+
+
 ## Signed Binary
 ### Negative Number -> Binary
 - `abs(negative number) - 1`, then reverse. For example, -7 - > 7 -1 -> 0111 - 1 = 0110 -> then reverse = 1001
